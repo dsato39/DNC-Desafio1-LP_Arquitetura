@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+    padding: 0px;
+}
+
+#introducao {
+    background-color: #303030;
+    color: #FFFFFF;
+    height: 475px;
+}
+
+#titulointroducao {
+    padding: 206px 0 0 62px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+#textointroducao {
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#informacoes {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 229px;
+}
+
+.tituloinformativo {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textoinformativo {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#texto-historia {
+    margin-top: 20px;
+}
+
+#imagem-historia {
+    margin: 77px 0 77px 0;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    text-align: center;
+    justify-content: center;
+    height: 638px;
+}
+
+#titulo-formulario {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input {
+    background-color: #FFFFFF;
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-style: none;
+    padding-left: 30px;
+}
+
+button {
+    background: #C07212;
+    width: 286px;
+    height: 74px;
+    top: 1955px;
+    left: 577px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #da7b08;
+    transform: translateY(-4px);
+    transition-duration: 0.5s;
+}
